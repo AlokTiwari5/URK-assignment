@@ -1,0 +1,251 @@
+
+    *{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*html{
+    scroll-behavior: smooth;
+}
+
+#wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+
+}
+
+.container{
+    height: 122px;
+    width: 1302px;
+    padding: 8px 8px 8px 8px;
+    display:flex;
+    background-color: #343a40;
+    background-position: 0% 0%;
+    color: #FFFFFF;
+    
+    
+}
+
+h1{
+    font-family: proxima-nova-regular, "Helvetica Neue", Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 48px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    word-spacing: 0px;
+    height: 96px;
+    width: 1035.66px;
+    margin: 0 1.8rem;
+    display: flex;
+    transform: none;
+    box-sizing: border-box;
+}
+
+.content{
+    white-space: nowrap;
+    font-family: proxima-nova-regular, "Helvetica Neue", Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 48px;
+    text-decoration: none solid rgb(33, 37, 41);
+    text-align: left;
+    word-spacing: 0px;
+    height: 920.688px;
+    width: 836.77px;
+    margin: 0 0 0 217px;
+    padding: 0 1.5rem;
+    max-width: 66.6667%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+hr{
+    width: 836.656px;
+    border-top: 1px solid #f3f0f0;
+    margin: 16px 0 16px 0;
+    display: flex;
+    position: relative;
+    top: 65px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+
+label{
+    font-family: proxima-nova-regular, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 19.2px;
+    text-decoration: none solid rgb(33, 37, 41);
+    text-align: left;
+    word-spacing: 0px;
+    height: 19.185px;
+    width: 93.2344px;
+    padding: 0px 0px 8px 0px;
+    display:inline-block;
+    background-color: #FFFFFF;
+    background-position: 0% 0%;
+    color: #212529;
+    cursor: default;
+}
+
+input{
+   
+    height: 38px;
+    width: 573.766px;
+    border: 1px solid #CED4DA;
+    padding: 6px 12px 6px 12px;
+    max-width: 66.6667%;
+    min-height: 1px;
+    display:block;
+    background-color: #FFFFFF;
+    background-position: 0% 0%;
+    color: #495057;
+    cursor: text;
+    position: relative;
+    top:    0px;
+    bottom: 0px;
+    left:   15px;
+    right:  0px;
+    border-radius: 5px;
+    
+
+}
+input {
+    border: 1px solid #ccc; 
+    padding: 5px;
+    border-radius: 5px;
+    outline: none; 
+}
+
+input:focus {
+    border-color: #80BDFF; 
+}
+span{
+    
+    color: #FF0000;
+    font-size: 24px;
+    margin: 0 0 -15px;
+    display: inline;
+    box-sizing: border-box;
+}
+
+#dropArea {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Sepge UI Symbol";
+    font-size: 16px;
+    font-weight: 450;
+    letter-spacing: 1.5px;
+    text-decoration: none solid rgb(211, 208, 208);
+    word-spacing: 0px;
+    border: 2px solid rgb(219, 218, 218);
+    background-color: rgb(214, 212, 212);
+    color: rgb(121, 118, 118);
+    background-position: 0% 0%;
+    height: 76px;
+    width: 806.656px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: relative;
+    inset: 0;
+    top: 0px;
+    bottom: 0px;
+    left: 12px;
+    right: 0px;
+    text-align: center;
+    border-radius: 5px; 
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+}
+
+input[type="file"] {
+    opacity: 0;
+    margin: auto;
+    position: absolute;
+
+    cursor: default;   
+    inset: 0; 
+    white-space: nowrap;
+    height: 85px;
+    width: 850vh;
+}
+.custom-button{
+        border: 2px solid #2DB1A5 ;
+        position: sticky;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 245px;
+        font-family: proxima-nova-regular,"Helvetica Neue", Arial, sans-serif;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 24px;
+        text-decoration: none solid rgb(243, 247, 246);
+        text-align: center;
+        text-transform: uppercase;
+        white-space: nowrap;
+        background-color: #2DB1A5;
+        background-position: 0% 0%;
+        color: #ebf3f2;
+        height: 36px;
+        width: 90.4531px;
+        margin: 10px 10px 10px 10px;
+        padding: 6px 12px 6px 12px;
+        float: right;
+        transition: background-color 0.3s ease;
+        display: block;
+        box-sizing: border-box;
+        border-radius: 5px; 
+        transition-duration: 0.4s;
+        cursor: pointer;
+}
+.custom-button:active {
+    background-color: #2DB1A5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+
+#message-container {
+
+    display: none; 
+    top: 20px;
+    right: 20px;
+    position: fixed;
+    background-color:  #2DB1A5; 
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+
+.cancel-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row-reverse;
+    color: #5e6161;
+    
+}
+
+
+::-webkit-scrollbar {
+    width: 9px; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d3cccc; 
+    border-radius: 9px;
+} 

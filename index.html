@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeList</title>
+    <link rel="icon" type="imgage/png" href="img\download.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+
+
+        <div class="container">
+                <box>
+                    <h1>
+                    Frontend Developer Intern - Evaluation Task Submission 
+                    </h1>
+                </box>
+                </div>
+
+
+        <div class="content">
+            <hr></hr>
+                <form action = "/Submit_URL/" method="post">
+                </form>
+                <box>
+                    
+                    <br>
+                    <label for = "FirstName"> <span>*</span> First Name </label>
+                    <input type = "text"
+                    name="First Name"
+                    required>
+                </box>
+                <box>
+                    <label for = "Last Name"> <span>*</span> Last Name</label>
+                    <input type = "text"
+                    name="Last Name"
+                    required>
+                </box>
+                <box>
+                    <label for = "Email"> <span>*</span> Email</label>
+                    <input type = "text"
+                    name="Email"
+                    required>
+                </box>
+                <box>
+                    <label for = "Mobile Number"> <span>*</span> Mobile Number</label>
+                    <input type = "text"
+                    name="Mobile Number"
+                    required>
+                </box>
+                <box>
+                    <label for = "Current City"> <span>*</span> Current City</label>
+                    <input type = "text"
+                    name="Current City"
+                    required>
+                </box>
+                <box>
+                    <label for = "University / College"> <span>*</span> University / College</label>
+                    <input type = "text"
+                    name="University / College"
+                    required>
+                </box>
+                <box>
+                    <label for = "Graduation Year"> <span>*</span> Graduation Year</label>
+                    <input type = "text"
+                    name="Graduation Year"
+                    required>
+                </box>
+                <box>
+                    <label for = "Working Link / URL to Completed Page"><span>*</span> Working Link / URL to Completed Page</label>
+                    <input type = "text"
+                    name="Working Link / URL to Completed Page"
+                    required>
+                </box>
+                    
+                
+                <div class="file-upload-box">
+                <label id="Input"><span>*</span> Zip File of your Code</label>
+                <div class="dropAarea" id="dropArea">
+                    <p>Drop files here...</p>
+                    <input type="file" name="ZipFile" id="fileInput">
+                </div>
+                
+            </div>
+        
+            
+                
+                
+            
+            
+        </div>
+        <div class="submit">
+            <button class="custom-button" onclick="showMessage()">SUBMIT</button>
+            <div id="message-container"><span class="cancel-icon">&#10005;</span></div>
+            
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
